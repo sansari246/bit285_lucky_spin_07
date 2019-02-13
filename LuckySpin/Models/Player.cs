@@ -17,6 +17,8 @@ namespace LuckySpin.Models
 
         //TODO: Each Player has a set of Spins, add these as an ICollection<Spin>
         //(Refresh your DB afterwards by deleting the LuckySpin database and re-run)
- 
+        public ICollection<Spin> Spins { get; set; }
+
+        ////QUESTION=> i dont know why it is an error and i just confused how should i delete DB
     }
 }
